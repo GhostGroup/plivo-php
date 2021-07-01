@@ -169,7 +169,7 @@ class Numbers
         
     }
 
-    public function list( $optionalArgs = [])
+    public function lists( $optionalArgs = [])
     {   
         $response = $this->client->fetch(
             $this->url . '/Number/' ,

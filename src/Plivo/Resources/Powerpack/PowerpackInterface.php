@@ -72,7 +72,7 @@ class PowerpackInterface extends ResourceInterface
     *   + [int] offset - 
      * @return ResourceList output
      */
-    public function list( $optionalArgs = [])
+    public function lists( $optionalArgs = [])
     {
         $response = $this->client->fetch(
             $this->uri . 'Powerpack/',
@@ -92,7 +92,6 @@ class PowerpackInterface extends ResourceInterface
      *   + string local_connect - 
      *   + string application_type - 
      *   + string application_id - 
-     *   + array number_priority -
      *
      * @return PowerpackCreateResponse output
      */

@@ -50,7 +50,7 @@ class Shortcode
         return new Shortcode($this->client, $this->$uri);
     }
 
-    public function list($optionalArgs = []){
+    public function lists($optionalArgs = []){
         $response = $this->client->fetch(
         $this->uri . '/Shortcode/' ,
         $optionalArgs
