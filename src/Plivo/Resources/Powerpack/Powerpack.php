@@ -4,6 +4,7 @@ namespace Plivo\Resources\Powerpack;
 
 
 use Plivo\BaseClient;
+use Plivo\Exceptions\PlivoValidationException;
 use Plivo\Resources\Resource;
 use Plivo\Util\ArrayOperations;
 use Plivo\Exceptions\PlivoNotFoundException;
